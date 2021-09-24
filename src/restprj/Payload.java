@@ -15,6 +15,11 @@ public class Payload {
 			+ "	\"website\":\"www.example.com\",\r\n"
 			+ "	\"language\":\"english\"\r\n"
 			+ "}";
+	public static String updatePayload="{\r\n"
+			+ "	\"place_id\":\"placeid\",\r\n"
+			+ "	\"address\":\""+TestData.address+"\",\r\n"
+			+ "	\"key\":\"qaclick123\"\r\n"
+			+ "}";
 }
 
 
