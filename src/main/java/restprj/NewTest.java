@@ -1,12 +1,15 @@
 package restprj;
 
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
+
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+
+import org.junit.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;

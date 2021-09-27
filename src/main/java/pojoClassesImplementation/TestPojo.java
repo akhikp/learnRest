@@ -1,4 +1,4 @@
-package pojoClassesTest1;
+package pojoClassesImplementation;
 
 import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;

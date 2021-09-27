@@ -1,4 +1,4 @@
-package pojoClassesTest1;
+package pojoClassesImplementation;
 
 import java.util.Date;
 import java.util.List;

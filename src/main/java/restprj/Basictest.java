@@ -6,7 +6,9 @@ import io.restassured.path.json.JsonPath;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-import org.testng.Assert;
+import org.junit.Assert;
+
+//import org.testng.Assert;
 
 public class Basictest {
 	public static void main(String[] args) {
@@ -67,7 +69,6 @@ public class Basictest {
 		//SoftAssert sa = new SoftAssert();
 		
 		String expectedAdress = "Jp Nagar, Bangalore Karnataka";
-		
 		Assert.assertEquals(actualaddress,expectedAdress);
 		
 		

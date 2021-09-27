@@ -1,4 +1,4 @@
-package pojoClassesTest1;
+package pojoClassesImplementation;
 
 public class ProductColor {
 	public String hex_value;
