@@ -20,13 +20,15 @@ public class Utils {
 		PrintStream stream = new PrintStream(new FileOutputStream("logs.txt"));
 		req = new RequestSpecBuilder().setBaseUri("http://makeup-api.herokuapp.com")
 				.addFilter(RequestLoggingFilter.logRequestTo(stream))
-				.addFilter(ResponseLoggingFilter.logResponseTo(stream))
+		//		.addFilter(ResponseLoggingFilter.logResponseTo(stream))
 				.build();
 		return req;
 	}
 
 	public ResponseSpecification responseScification() {
-		resspec = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build();
+		resspec = new ResponseSpecBuilder()
+				//.expectStatusCode(200)
+				.expectContentType(ContentType.JSON).build();
 		return resspec;
 	}
 }
