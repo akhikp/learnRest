@@ -1,4 +1,4 @@
-package restprj;
+package learnStepByStep;
 
 import io.restassured.path.json.JsonPath;
 

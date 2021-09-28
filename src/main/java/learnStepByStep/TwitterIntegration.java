@@ -1,4 +1,4 @@
-package restprj;
+package learnStepByStep;
 
 public class TwitterIntegration {
 

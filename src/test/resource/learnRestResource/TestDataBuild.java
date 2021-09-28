@@ -1,4 +1,4 @@
-package learnRest;
+package learnRestResource;
 
 
 import io.restassured.RestAssured;

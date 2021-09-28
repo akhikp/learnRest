@@ -8,7 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/java/features",
-        glue="StepDefs"
+        glue="StepDefs",
+        plugin = "json:target/jsonReports/cucumber_report.json"
         )
 public class TestRunner {
 

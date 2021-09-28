@@ -1,4 +1,4 @@
-package restprj;
+package learnStepByStep;
 
 //import org.testng.annotations.Test;
 
